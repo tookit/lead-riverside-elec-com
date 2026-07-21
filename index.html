@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riverside Electric Inc. | Electrical Services Since 1945</title>
+  <meta name="description" content="Family-owned electrical contractors since 1945. Serving Cincinnati, Columbus & Indianapolis with 24/7 commercial and residential electrical services. Top-rated Generac dealer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="./assets/images/logo.png" alt="Riverside Electric Inc." loading="eager">
+      </a>
+      <div class="nav-links">
+        <a href="service.html" class="nav-link">Services</a>
+        <a href="#generators" class="nav-link">Generators</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-cta-group">
+        <a href="tel:5139360100" class="nav-phone">
+          <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          (513) 936-0100
+        </a>
+        <a href="#quote" class="btn btn-primary btn-small">Request Service</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileOverlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu-close" id="mobileClose" aria-label="Close menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+    <a href="service.html" class="mobile-menu-item">Services <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></a>
+    <a href="#generators" class="mobile-menu-item">Generators <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></a>
+    <a href="#certifications" class="mobile-menu-item">Certifications</a>
+    <a href="about.html" class="mobile-menu-item">About</a>
+    <a href="#reviews" class="mobile-menu-item">Reviews</a>
+    <a href="#blog" class="mobile-menu-item">Blog</a>
+    <a href="contact.html" class="mobile-menu-item">Contact</a>
+    <div class="mobile-menu-bottom">
+      <a href="tel:5139360100" class="btn btn-secondary btn-full">Call (513) 936-0100</a>
+      <a href="#quote" class="btn btn-primary btn-full">Request Service</a>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <div class="hero-badge anim-fade-in-up anim-delay-1">
+            <svg class="badge-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Trusted Electrical Contractors Since 1945
+          </div>
+          <h1 class="hero-title anim-fade-in-up anim-delay-2">Electrical Services You Can Trust</h1>
+          <p class="hero-subtitle anim-fade-in-up anim-delay-3">Family-owned and operated for 4 generations. Serving Cincinnati, Columbus & Indianapolis with 24/7 commercial and residential electrical services.</p>
+          <div class="hero-features anim-fade-in-up anim-delay-4">
+            <div class="hero-feature">
+              <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              <span>24/7 Emergency Service Available</span>
+            </div>
+            <div class="hero-feature">
+              <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+              <span>Cincinnati's Top-Rated Generac Dealer</span>
+            </div>
+            <div class="hero-feature">
+              <svg class="feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span>Licensed in OH, KY & IN</span>
+            </div>
+          </div>
+          <div class="hero-cta-group anim-fade-in-up anim-delay-5">
+            <a href="#quote" class="btn btn-primary">Request Free Quote <svg class="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <a href="tel:5139360100" class="btn btn-ghost">Call (513) 936-0100</a>
+          </div>
+        </div>
+        <div class="hero-form anim-fade-in-up anim-delay-5">
+          <div class="hero-form-card">
+            <h3>Get a Free Quote Today</h3>
+            <p>Fill out the form and our team will get back to you within 24 hours.</p>
+            <form id="quoteForm" onsubmit="event.preventDefault(); return false;">
+              <div class="form-field">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-input" placeholder="John Smith" required>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-input" placeholder="(513) 000-0000" required>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" placeholder="john@example.com" required>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Service Type</label>
+                <select class="form-select">
+                  <option>Select a service...</option>
+                  <option>Commercial Electrical</option>
+                  <option>Generator Installation</option>
+                  <option>EV Charger Installation</option>
+                  <option>LED Lighting & Retrofits</option>
+                  <option>Lighting Management</option>
+                  <option>Emergency Service</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label class="form-label">Message (Optional)</label>
+                <textarea class="form-textarea" placeholder="Tell us about your project..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Request Callback</button>
+            </form>
+            <p class="form-note">We respect your privacy. No spam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar" id="trust">
+    <div class="container">
+      <div class="trust-grid reveal">
+        <div class="trust-item">
+          <div class="trust-number"><span class="star">&#9733;</span> 4.7</div>
+          <div class="trust-label">Star Rating<br>(703 Reviews)</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">80+</div>
+          <div class="trust-label">Years of<br>Experience</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">300+</div>
+          <div class="trust-label">5-Star Reviews<br>Across Platforms</div>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-item">
+          <div class="trust-number">24/7</div>
+          <div class="trust-label">Emergency<br>Service Available</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="tag tag-category">Our Services</span>
+        <h2 class="section-title">Comprehensive Electrical Solutions</h2>
+        <p class="section-desc">From routine maintenance to complex installations, we deliver reliable electrical solutions for homes and businesses across Ohio, Kentucky, and Indiana.</p>
+      </div>
+      <div class="services-grid reveal-stagger">
+        <div class="card reveal-item">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01M12 6h.01M16 6h.01M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01"/></svg>
+          </div>
+          <h3 class="card-title">Commercial Electrical</h3>
+          <p class="card-text">Full-service contracting for offices, retail, warehouses & industrial facilities. Code-compliant installations and upgrades.</p>
+          <a href="#" class="card-link">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="card reveal-item">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3 class="card-title">Generator Installation & Service</h3>
+          <p class="card-text">Residential & commercial standby generators. Cincinnati's top-rated Generac PowerPro Premier dealer with full warranty support.</p>
+          <a href="#" class="card-link">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="card reveal-item">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+          </div>
+          <h3 class="card-title">EV Charger Installation</h3>
+          <p class="card-text">Home & commercial EV charging stations. Ensure proper electrical capacity and safe, code-compliant installation.</p>
+          <a href="#" class="card-link">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="card reveal-item">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          </div>
+          <h3 class="card-title">LED Lighting & Retrofits</h3>
+          <p class="card-text">Energy-efficient LED upgrades with energy audits & rebate assistance. Reduce your energy bills while improving lighting quality.</p>
+          <a href="#" class="card-link">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="card reveal-item">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </div>
+          <h3 class="card-title">Lighting Management Programs</h3>
+          <p class="card-text">Comprehensive exterior lighting management, night audits & flat-rate maintenance. Ideal for property managers & REITs.</p>
+          <a href="#" class="card-link">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+        <div class="card reveal-item">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="card-title">24/7 Emergency Service</h3>
+          <p class="card-text">Around-the-clock emergency response for electrical issues. When the power goes out, we're already on our way.</p>
+          <a href="#" class="card-link">Learn More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="section section-dark" id="about">
+    <div class="container">
+      <div class="why-grid reveal">
+        <div class="why-content">
+          <span class="tag tag-accent">Why Choose Riverside Electric</span>
+          <h2 class="section-title" style="margin-top:16px;margin-bottom:16px;">Your Partner for Power & Light</h2>
+          <p class="section-desc" style="margin-bottom:32px;text-align:left;">For over 80 years, businesses and homeowners across the Tri-State area have trusted Riverside Electric for reliable, professional electrical services. Here's why:</p>
+          <div class="why-features">
+            <div class="why-item">
+              <div class="why-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div>
+                <div class="why-item-title">24/7 Service Available</div>
+                <div class="why-item-text">Round-the-clock commercial & generator support. We're always here when you need us.</div>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
+              <div>
+                <div class="why-item-title">PowerPro Premier Dealer</div>
+                <div class="why-item-text">Cincinnati's top-rated Generac dealer. The most comprehensive designation in the network.</div>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+              <div>
+                <div class="why-item-title">80+ Years Experience</div>
+                <div class="why-item-text">4th-generation family business. Four generations of expertise, built on trust.</div>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+              <div>
+                <div class="why-item-title">300+ 5-Star Reviews</div>
+                <div class="why-item-text">Trusted on Google, Angi & Generac. Our customers speak for us.</div>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+              <div>
+                <div class="why-item-title">Flat-Rate Pricing</div>
+                <div class="why-item-text">Transparent pricing. No surprises. Know what you're paying before we start.</div>
+              </div>
+            </div>
+            <div class="why-item">
+              <div class="why-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+              <div>
+                <div class="why-item-title">OH/KY/IN Licensed</div>
+                <div class="why-item-text">Fully licensed in three states. We meet every code requirement.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-image-wrapper reveal">
+          <img src="./assets/images/bucket-truck.png" alt="Riverside Electric team with bucket trucks" class="why-image" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GENERATOR SPOTLIGHT ===== -->
+  <section class="section section-alt" id="generators">
+    <div class="container">
+      <div class="generator-grid reveal">
+        <div class="generator-image-wrapper">
+          <img src="./assets/images/generator-1.jpg" alt="Generac home standby generator installed by Riverside Electric" class="generator-image" loading="lazy">
+        </div>
+        <div>
+          <span class="tag tag-success">Generators</span>
+          <h2 class="section-title" style="margin-top:16px;margin-bottom:8px;">Never Feel Powerless</h2>
+          <h3 style="font-family:var(--font-display);font-size:1.25rem;color:var(--color-primary);margin-bottom:16px;">Cincinnati's Top-Rated, PowerPro Premier Generac Dealer</h3>
+          <p style="font-size:1.125rem;color:var(--color-text-secondary);line-height:1.6;margin-bottom:24px;">PowerPro Premier is the most comprehensive designation in the Generac dealer network. No other dealer in Cincinnati has more 5-star ratings than Riverside Electric. From consultation to installation and ongoing service, we ensure your home or business never loses power.</p>
+          <div class="generator-stats">
+            <div>
+              <div class="generator-stat-number">300+</div>
+              <div class="generator-stat-label">5-Star Reviews on Google, Angi & Generac</div>
+            </div>
+            <div>
+              <div class="generator-stat-number">PowerPro</div>
+              <div class="generator-stat-label">Top Dealer Designation</div>
+            </div>
+          </div>
+          <div style="margin-top:32px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;">
+            <a href="#" class="btn btn-primary">Get a Free Generator Quote <svg class="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <a href="#" style="font-family:var(--font-display);font-weight:600;color:var(--color-primary);display:flex;align-items:center;gap:4px;">Learn More About Generators <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="tag tag-category">Accredited & Certified</span>
+        <h2 class="section-title">Licensed, Accredited & Trusted</h2>
+        <p class="section-desc">Our credentials speak for themselves. Riverside Electric holds the industry's most respected accreditations and dealer designations &mdash; a testament to 80 years of uncompromising quality.</p>
+      </div>
+      <div class="cert-grid reveal-stagger">
+        <div class="cert-card reveal-item">
+          <img src="./assets/images/bbb-badge.png" alt="BBB A+ Accredited Business" class="cert-badge-img" loading="lazy">
+          <div class="cert-title">BBB A+ Accredited</div>
+          <div class="cert-desc">Better Business Bureau accredited with an A+ rating for ethical, trustworthy business practices.</div>
+        </div>
+        <div class="cert-card reveal-item">
+          <img src="./assets/images/powerpro-badge.jpg" alt="Generac PowerPro Premier Dealer" class="cert-badge-img" loading="lazy">
+          <div class="cert-title">PowerPro Premier Dealer</div>
+          <div class="cert-desc">The highest Generac dealer designation. Cincinnati's top-rated generator dealer.</div>
+        </div>
+        <div class="cert-card reveal-item">
+          <img src="./assets/images/generac-badge.png" alt="Generac Authorized Dealer" class="cert-badge-img" loading="lazy">
+          <div class="cert-title">Generac Authorized</div>
+          <div class="cert-desc">Authorized sales, installation &amp; service dealer for Generac standby generators.</div>
+        </div>
+        <div class="cert-card reveal-item">
+          <img src="./assets/images/cinci-best.png" alt="Cincinnati's Best" class="cert-badge-img" loading="lazy">
+          <div class="cert-title">Cincinnati's Best</div>
+          <div class="cert-desc">Voted one of Cincinnati's best electrical contractors by the local community.</div>
+        </div>
+        <div class="cert-card reveal-item">
+          <div class="cert-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <div class="cert-title">Licensed OH / KY / IN</div>
+          <div class="cert-desc">Fully licensed and insured electrical contractors across Ohio, Kentucky &amp; Indiana.</div>
+        </div>
+        <div class="cert-card reveal-item">
+          <div class="cert-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div class="cert-title">4th Generation Family</div>
+          <div class="cert-desc">Family-owned and operated since 1945. Four generations of electrical excellence.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HERITAGE / STATS ===== -->
+  <section class="heritage" id="heritage">
+    <div class="heritage-bg"></div>
+    <div class="container heritage-content">
+      <div class="reveal">
+        <div class="heritage-year">Since 1945</div>
+        <h2 class="heritage-title">Built on 80 Years of Trust & Excellence</h2>
+        <div class="heritage-stats">
+          <div class="heritage-stat">
+            <div class="heritage-stat-number">1945</div>
+            <div class="heritage-stat-label">Founded in<br>Cincinnati</div>
+          </div>
+          <div class="heritage-stat">
+            <div class="heritage-stat-number">4th</div>
+            <div class="heritage-stat-label">Family-Owned<br>& Operated</div>
+          </div>
+          <div class="heritage-stat">
+            <div class="heritage-stat-number">3</div>
+            <div class="heritage-stat-label">Cities<br>Served</div>
+          </div>
+          <div class="heritage-stat">
+            <div class="heritage-stat-number">24/7</div>
+            <div class="heritage-stat-label">Always On<br>Call</div>
+          </div>
+        </div>
+        <p class="heritage-quote">"From a single electrician's truck to a full fleet serving the Tri-State area &mdash; our commitment to excellence hasn't changed."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="tag tag-category">Customer Reviews</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-desc">Don't just take our word for it. Here's what our customers across the Tri-State area have to say about working with Riverside Electric.</p>
+      </div>
+      <div class="testimonials-grid reveal-stagger">
+        <div class="testimonial-card reveal-item">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Riverside Electric, the best in the business. We had a whole house generator installed and love it! The team was professional, clean, and walked us through every step."</p>
+          <div class="testimonial-author">Michael D.</div>
+          <div class="testimonial-source">Google Review</div>
+        </div>
+        <div class="testimonial-card reveal-item">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"We manage multiple properties in Cincinnati and Riverside handles all our lighting management. Flat-rate pricing and 24/7 response is a game-changer."</p>
+          <div class="testimonial-author">Sarah K.</div>
+          <div class="testimonial-source">Angi Review</div>
+        </div>
+        <div class="testimonial-card reveal-item">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Our office needed a complete LED retrofit. Riverside handled the audit, rebate paperwork, and installation flawlessly. We cut our lighting bill by 60%."</p>
+          <div class="testimonial-author">David R.</div>
+          <div class="testimonial-source">Generac Review</div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:40px;" class="reveal">
+        <a href="#" class="btn btn-secondary">Read All 703 Reviews <svg class="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section class="section section-alt" id="blog">
+    <div class="container">
+      <div class="blog-header reveal">
+        <div>
+          <span class="tag tag-category">Latest from Our Blog</span>
+          <h2 class="section-title" style="margin-top:12px;">Electrical Tips & Insights</h2>
+        </div>
+        <a href="#" class="view-all-link">View All <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="blog-grid reveal-stagger">
+        <div class="blog-card reveal-item">
+          <img src="./assets/images/blog-1.jpg" alt="LED lighting retrofit" class="blog-img" loading="lazy">
+          <div class="blog-content">
+            <span class="tag tag-category blog-tag">LED Lighting</span>
+            <h3 class="blog-title"><a href="#">Energy Efficient LED Retrofits to Modernize Your Existing Building Lighting</a></h3>
+            <div class="blog-meta">July 1, 2026 | Krista Mahon</div>
+            <a href="#" class="blog-link">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+        <div class="blog-card reveal-item">
+          <img src="./assets/images/blog-2.jpg" alt="Commercial LED repair" class="blog-img" loading="lazy">
+          <div class="blog-content">
+            <span class="tag tag-category blog-tag">Commercial</span>
+            <h3 class="blog-title"><a href="#">Expert Commercial LED Repair Services for Bright and Efficient Workspaces</a></h3>
+            <div class="blog-meta">June 13, 2026 | Krista Mahon</div>
+            <a href="#" class="blog-link">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+        <div class="blog-card reveal-item">
+          <img src="./assets/images/lighting.jpg" alt="Home standby generator" class="blog-img" loading="lazy">
+          <div class="blog-content">
+            <span class="tag tag-category blog-tag">Generators</span>
+            <h3 class="blog-title"><a href="#">Features of Top-Quality Home Standby Generators for 2026</a></h3>
+            <div class="blog-meta">June 4, 2026 | Krista Mahon</div>
+            <a href="#" class="blog-link">Read More <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="section section-cta" id="quote">
+    <div class="container">
+      <div class="cta-content reveal">
+        <span class="tag tag-outline">Ready to Get Started?</span>
+        <h2 class="cta-title" style="margin-top:16px;">Request Your Free Quote Today</h2>
+        <p class="cta-desc">Call (513) 936-0100 or fill out the form and we'll get back to you within 24 hours.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn btn-primary" style="padding:18px 36px;font-size:1.125rem;">Request Free Quote <svg class="arrow-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a href="tel:5139360100" class="btn btn-ghost" style="padding:18px 36px;font-size:1.125rem;">Call (513) 936-0100</a>
+        </div>
+        <p class="cta-areas">Service Areas: Cincinnati, OH | Columbus, OH | Indianapolis, IN</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <img src="./assets/images/logo.png" alt="Riverside Electric Inc.">
+          </div>
+          <p class="footer-desc">Trusted electrical contractors since 1945. Serving Cincinnati, Columbus & Indianapolis with 24/7 commercial and residential electrical services.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="footer-social" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="service.html" class="footer-link">Services</a>
+            <a href="#reviews" class="footer-link">Reviews</a>
+            <a href="#" class="footer-link">Gallery</a>
+            <a href="#blog" class="footer-link">Blog</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+            <a href="#quote" class="footer-link">Request Quote</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Services</div>
+          <div class="footer-links">
+            <a href="service.html#commercial" class="footer-link">Commercial Electrical</a>
+            <a href="service.html#generators" class="footer-link">Generators</a>
+            <a href="service.html#ev" class="footer-link">EV Chargers</a>
+            <a href="service.html#led" class="footer-link">LED Lighting</a>
+            <a href="service.html#lighting-mgmt" class="footer-link">Lighting Management</a>
+            <a href="service.html#emergency" class="footer-link">Emergency Service</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <div class="footer-contact">
+            <p><strong>Cincinnati, OH</strong><br>680 Redna Terrace, Cincinnati, OH 45215<br><a href="tel:5139360100">(513) 936-0100</a></p>
+            <p style="margin-top:12px;"><strong>Columbus, OH</strong><br>3045 Scioto Darby Executive Ct, Ste C, Hilliard, OH 43026</p>
+            <p style="margin-top:12px;"><strong>Indianapolis, IN</strong><br>5367 West 86th Street, Indianapolis, IN 46268</p>
+            <p style="margin-top:12px;">Toll Free: <a href="tel:8665483766">(866) 548-3766</a><br>Email: <a href="mailto:info@riverside-elec.com">info@riverside-elec.com</a><br><strong>24/7 Emergency Services Available</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">&copy; 2026 Riverside Electric Inc. All rights reserved.</div>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+        <div class="footer-badges">
+          <img src="./assets/images/bbb-badge.png" alt="BBB A+ Rating">
+          <img src="./assets/images/powerpro-badge.jpg" alt="Generac PowerPro Premier">
+          <img src="./assets/images/generac-badge.png" alt="Generac Authorized Dealer">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom CTA Bar -->
+  <div class="mobile-cta-bar">
+    <a href="tel:5139360100" class="btn btn-secondary btn-full">Call Now</a>
+    <a href="#quote" class="btn btn-primary btn-full">Request Service</a>
+  </div>
+
+  <!-- ===== SCRIPTS ===== -->
+    <script src="main.js"></script>
+</body>
+</html>
